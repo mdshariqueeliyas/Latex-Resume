@@ -1,0 +1,186 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    %linkcolor=blue,
+    %filecolor=magenta,
+    urlcolor=blue,
+}
+\urlstyle{same}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf {\Large Md Sharique Eliyas} \\
+\indent 4th year UG (Dual Degree) student,Department of Computer Science \& Engg. \\
+\indent \textbf {Indian Institute of Technology (ISM) Dhanbad}\\
+\indent Mobile No. : \textbf{+91-9027962148} \\
+\indent Email-id : \textbf{md.sharique.eliyas@gmail.com} \\
+\indent Homepage : \textbf{\url{http://shaeli1996.github.io}} \\
+\indent Skype id : \textbf{mdsharique.eliyas} \\
+
+\resheading{\textbf{CAREER OBJECTIVE} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.3in} l @{\hskip 0.3in} l @{\hskip 0.3in} l}
+To be a part of Organization that provides an atmosphere of mutual growth and benefits, where I can show my\\
+talent and potential \\
+[-0.6cm]
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{ACADEMIC PROFILE} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+[0.2cm]
+\indent \begin{tabular}{ l @{\hskip 0.3in} l @{\hskip 0.3in} l @{\hskip 0.3in} l}
+\hline
+\textbf{Examination} & \textbf{Institute} & \textbf{Year} & \textbf{CPI/\%} \\
+\hline
+\\
+Dual Degree (Bachelor \& Master & Department of Computer Science \& Engineering & 2014 - & 8.72/10 \\
+of Technology) & Indian Institute of Technology(ISM) Dhanbad & 2019\\
+\\
+Intermediate(+2) & Bihar State Examination Board(BSEB) & 2013 & 76.6 \\
+\\
+Matricualtion & Bihar State Examination Board(BSEB) & 2011 & 78.4 \\
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{FIELDS OF INTEREST} }\\[\lsep]
+\begin{itemize}
+\item \noindent Algorithm,Data Structure, Machine Learning, Web Development
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Programming Languages :- } C, C++ Familiar with Python,Java
+\item \textbf{Database :- } MySQL
+\item \textbf{Platform :- } Windows 8,8.1,10, Linux (ubuntu)
+\item \textbf{Machine Learning :- } Numpy, Anaconda, Jupyter Notebook, Pandas
+\item \textbf{Web & App Development :- } HTML5, XML, CSS, CSS3, PHP, JavaScript, Codeigniter, Bootstrap
+\item \textbf{Tools :- } Matlab,Eclipse, MS Office, Latex, Sublime Text, Adobe Photoshop CS6
+\end{itemize}
+
+\resheading{\textbf{KEY ACADEMIC PROJECTS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Exchange Rates Forecasting} (Mentor : Prof. P. K. Jana, Dept. of Computer Science 
+\& Engg.)\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Exchange rates forecasting using Radial Basis Function Neural Network.
+	\item Improvement in accuracy by ensembling RBF in multistages.
+	\item Github Link : \url{https://github.com/shaeli1996}
+	\end{itemize}
+\item \textbf{Store Sales Forecasting} (Mentor : Prof. P. K. Jana, Dept. of Computer Science 
+\& Engg.)\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Problem Statement and Data Set from \url{https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting}
+	\item Use of Statistical model like Auto Regressive Integrated Moving Average Model for Time Series
+	Analysis
+	\item Comparison of results from linear regression, KNN regression, Neural Network, LSTM model.
+	\item Bagging of different models to get best accuracy.
+	\item Github Link : \url{https://github.com/shaeli1996/Store-Sales-Forecasting}
+	\end{itemize}
+\item \textbf{Collaborative Mobile Charing for Sensor Networks
+} (Mentor:Prof. P. K. Jana, Dept. of Computer Science \& Engg.) \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item To determine the path through which mobile charging vehicle will move to assure that every sensore does not run out of energy.
+	\item Implementation using Travelling Sales Man problem algorithm.
+	\item Improving it for mobile chargin along with Data collection from sensors.
+	\item Github Link : \url{https://github.com/shaeli1996}
+	\end{itemize}
+	\item \textbf{Student/Employee Password Administration Module for MIS} (Mentor : Dr. Chiranjeev Kumar, Dept. of Computer Science \& Engg.) \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Understanding the concept of MVC (Model,View,Control) in CodeIgniter.
+	\item Development of Model,View, Control code for given module.
+	\item Adding features for special cases like no. of times password can be change, and storing IP address during password change.
+	\item Github Link : \url{https://github.com/shaeli1996}
+	\end{itemize}
+	\item \textbf{Java GUI project}(Mentor : Prof. P. K. Jana, Dept. of Computer Science \& Engg.)
+	\begin{itemize} \itemsep \isep
+	\item Graphical representation of basic problems like Magic Square, Convex Polygon, Shortest path between two nodes in binary tree etc. using Java GUI and applet.
+	\item Github Link : \url{https://github.com/shaeli1996}
+	\end{itemize}
+\end{itemize}
+
+\resheading{\textbf{SCHOLASTIC ACHIEVEMENTS \& CERTIFICATIONS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Amongst the top 1\% in JEE Advance 2014 exam with \textbf{CML AIR-5932}
+\item \noindent Became in top 0.1\% of Higher Secondary Board Exams among all candidates.
+\item \noindent Ranked \textbf{CML AIR 7996} in JEE Main 2014 out of 12 lakh aspirants approximately.
+\item \noindent Ranked $48^{th}$ in Bihar Combined Entrance Competitive Examination 2014 (BCECE).
+\item \noindent Achieved “B” certificate in National Cadet Corps (N.C.C).
+\item \noindent Certification in \textbf{Machine Learning by Andrew Ng} course by Coursera.
+\end{itemize}
+
+\resheading{\textbf{COMPETITIVE CODING SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Solved more than 114 questions on Codechef. (\url{https://www.codechef.com/users/shaeli}).
+\item \noindent Won 5 Silver and 6 Bronze medals on HackerRank.(\url{https://www.hackerrank.com/shaeli}).
+\item \noindent Solved 153 questions on SPOJ with world rank of 3343(8.3 points) (\url{http://www.spoj.com/users/mdsharique/}).
+\item \noindent Actively solves various Machine Learning problems on Kaggle.(\url{https://www.kaggle.com/shaeli})
+\item \noindent Secured $32^{nd}$ rank world wide out of 6200 coders in October Circuit'17 on HackerEarth.(\url{https://www.hackerearth.com/challenge/competitive/october-circuits-17/leaderboard/})
+\item \noindent Received $\$5 Reward$ in SRM 724 on topcoder. \url{https://www.topcoder.com/members/mdshariqueeliya/}
+\item \noindent Secured  $25^{th}$ rank in CodeMarathon , an annual coding contest organised by CSE Society,\\
+IIT(ISM) Dhanbad.
+\end{itemize}
+
+\resheading{\textbf{EXTRA CURRICULAR ACTIVITIES} }\\[\lsep]
+\begin{itemize}
+\item \noindent Co-ordinator of Web \& Design Team Hackfest'18,An annual Hackfest of IIT(ISM), Dhanbad.
+\item \noindent Dedicated member of KARTAVYA, an NGO that promotes education of the slum children, involved in its academic team as a class teacher.
+\item \noindent Designed and coded my own Homepage. Link : \url{https://shaeli1996.github.io}
+\item \noindent Served Nation as Batallion in Nation Cadet Corps for 2 Years.
+
+\end{itemize}
+
+\resheading{\textbf{INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}
+\item \noindent Competitive Coding, Web surfing
+\item \noindent Cycling,Swimming
+
+\end{itemize}
+\end{document}
+
